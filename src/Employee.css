@@ -1,0 +1,9 @@
+
+.custom-placeholder::placeholder {
+    color: black;
+    
+  }
+  input{
+    width:300px;
+background-color:rgb(209, 193, 193);
+  }

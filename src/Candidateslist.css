@@ -1,0 +1,68 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    color:black;
+    min-width:130px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  .main-title{
+    color:red;
+  }
+  /* Style for the Download Resume button */
+.resume-cell {
+  text-align: center; /* Center align the content */
+}
+
+.download-link {
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.download-button {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center align text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make button inline-block */
+  font-size: 16px; /* Increase font size */
+  border-radius: 5px; /* Round corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.download-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style for the Delete button */
+.delete-cell {
+  text-align: center; /* Center align the content */
+}
+
+.delete-button {
+  background-color: #f44336; /* Red background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding */
+  text-align: center; /* Center align text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make button inline-block */
+  font-size: 16px; /* Increase font size */
+  border-radius: 5px; /* Round corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}

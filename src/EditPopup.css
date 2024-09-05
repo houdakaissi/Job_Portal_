@@ -1,0 +1,19 @@
+/* Add this to your CSS file */
+.popup {
+    
+    top: 0;
+    left: 0;
+    min-width: 3200px;
+    min-height: 3200px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+}

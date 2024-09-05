@@ -1,0 +1,282 @@
+
+
+.list-container {
+ 
+ 
+  gap:0px;
+  top:-500px;
+    position:relative;
+    background-color:white;
+ 
+    
+ }
+ 
+ .card {
+   
+   width: 500px;
+  
+    
+   overflow: hidden;
+ }
+ 
+ .card-image {
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+  
+ }
+ 
+ .card-content {
+   padding: 20px;
+ }
+ 
+ .job-title {
+   font-size: 1.5rem;
+   margin-bottom: 10px;
+ }
+ 
+ .job-description {
+   margin-bottom: 10px;
+ }
+ 
+ .education-level, .salary {
+   margin-bottom: 5px;
+ }
+ 
+ .more-button {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .more-button:hover {
+   background-color: #0056b3;
+ }
+ 
+ .big-textt {
+  background-image: url('https://media.jamf.com/images/Industries/macbook-pro-office-53-full-bleed.jpg?q=80&w=2000');
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Make the background fixed in place */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  position: absolute; /* You may need to use absolute or relative positioning */
+  top: 0; 
+  left: 0; 
+  width: 100%; /* Full width */
+  height: 60vh; /* Full viewport height */
+  z-index: -1; /* Maintain aspect ratio */
+ 
+}
+
+ .listt{
+  position:absolute;
+  top:600px;
+   
+ }
+
+  
+ .listt {
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  width:2000px;
+  flex-direction: column;
+  align-items: center;
+}
+
+ 
+
+.list {
+   
+ 
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 1400px;
+  height:200px;
+ 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Style for the company image */
+.company-image {
+ 
+  border-radius: 5%;
+  width: 300px;
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Style for job title and details */
+.text-lg {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-gray-600 {
+  color: #4a4a4a;
+}
+
+/* Style for the link */
+.text-blue-500 {
+  color: #007bff;
+}
+
+.text-blue-500:hover {
+  text-decoration: underline;
+}
+
+/* Ensure consistent spacing */
+.mb-2 {
+  margin-bottom: 10px;
+}
+
+/* Header and image styles */
+.big-text {
+  font-size: 3rem;
+  font-weight: bold;
+ position:absolute;
+ top:3000px;
+ 
+  
+}
+
+.big-textt {
+  display: inline;
+  width: 100%;
+  height: 600px;  /*auto*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.truncate-four-lines {
+  display: -webkit-box;         /* Use a flexible box layout */
+  -webkit-line-clamp: 4;        /* Limit the text to 4 lines */
+  -webkit-box-orient: vertical; /* Arrange children vertically */
+  overflow: hidden;             /* Hide any overflowing text */
+  text-overflow: ellipsis;      /* Add ellipsis (...) */
+}
+
+
+/* Style for the job details container */
+.list {
+ 
+  padding: 20px; /* Padding inside the card */
+  margin-bottom: 20px; /* Space between job items */
+}
+
+/* Container for job details to align items inline */
+.job-details {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-wrap: wrap; /* Wrap to new lines if needed */
+  gap: 10px; /* Space between items */
+  margin-bottom:100px;
+}
+
+/* Each item in the job details container */
+.job-detail-item {
+  display: flex; /* Ensure the items are flex containers */
+   /* Align items vertically centered */
+}
+
+/* Style for labels to appear inline with their values */
+.job-detail-item strong {
+  margin-right: 5px; /* Space between label and value */
+}
+
+.company-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Ensure the image covers the area */
+  margin-bottom: 10px; /* Space below the image */
+}
+ 
+.list {
+ 
+  padding: 20px; /* Padding inside the card */
+  margin-bottom: 30px; /* Space between job items */
+}
+
+/* Container for job details to align items inline */
+.job-details {
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-wrap: wrap; 
+/* Wrap to new lines if needed */
+  gap: 10px; /* Space between items */
+}
+
+/* Each item in the job details container */
+.job-detail-item {
+  display: flex; /* Ensure the items are flex containers */
+    /* Align items vertically centered */
+}
+
+/* Style for labels to appear inline with their values */
+.job-detail-item strong {
+  margin-right: 5px; /* Space between label and value */
+}
+
+.company-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; /* Ensure the image covers the area */
+  margin-bottom: 10px; /* Space below the image */
+}
+.username{
+width:350px;
+  color:black;
+}
+
+.description{
+width:400px;
+}
+.salary{
+  width:200px;
+}
+.education{
+width:200px;
+}
+
+
+ 
+.more-button {
+  background-color: #ffffff; /* White background */
+  color: rgb(230, 3, 41); /* Red text color */
+  border: 2px solid rgb(224, 10, 46); /* Red border */
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-left: 45px;
+  padding-right: 45px;
+
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  display: inline-block; /* Ensure it behaves like a button */
+}
+
+.more-button:hover {
+  background-color: rgb(230, 3, 41); /* Red background on hover */
+  color: #ffffff; /* White text on hover */
+  border-color: rgb(224, 10, 46); /* Red border on hover */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+p{
+  position:relative;
+ 
+ 
+  width:200px;
+}
+
+
+
+

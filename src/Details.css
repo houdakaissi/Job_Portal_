@@ -1,0 +1,27 @@
+
+ 
+/* Details.css */
+ 
+.d{
+  margin-bottom:125px;
+}
+
+/* Details.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.details-container {
+ 
+  margin-bottom:3000px;
+  min-width: 1820px;
+  min-height:920px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+ /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;*/
+}
